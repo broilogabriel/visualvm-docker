@@ -1,7 +1,7 @@
 FROM openjdk:8
 
 COPY . /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/src
 RUN javac Main.java
 
 EXPOSE 9010
